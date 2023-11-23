@@ -1,6 +1,7 @@
 import './App.css';
 import {useState} from "react";
 import {TasksList} from "./componenets/tasksList";
+import {Menu} from "./componenets/menu";
 
 function App() {
 
@@ -8,7 +9,7 @@ function App() {
 
   return(
       <>
-          <header></header>
+          <header><Menu/></header>
           <aside></aside>
 
           <main>
